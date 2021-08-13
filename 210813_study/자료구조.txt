@@ -1,0 +1,15 @@
+자료구조
+알고리즘
+
+스택(stack)
+	-FILO(First In Last Out)
+	-먼저 들어간 데이터가
+	나중에 나온다
+	컵으로 비유한다.
+
+	데이터 삽입 : push
+	데이터 추출 : pop
+
+큐(Queue)
+
+리스트(List)

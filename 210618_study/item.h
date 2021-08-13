@@ -11,7 +11,17 @@ class myPlayer; //상호참조를 막기 위해서
 class item
 {
 public:
-	item();
+	item()
+	{
+		strcpy(item_name, "테스트아이템");
+		cost = 100;
+		strcpy(item_story, "스토리테스트");
+		count = 1;
+
+		weight = 0.5f;
+		rarelity = 1;
+
+	}
 	~item();
 
 	char item_name[256];	//아이템이름
